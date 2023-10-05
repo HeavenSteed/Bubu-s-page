@@ -54,4 +54,5 @@ li {
 }
 .musica {
     text-align: center;
+    break-inside: avoid;
 }
