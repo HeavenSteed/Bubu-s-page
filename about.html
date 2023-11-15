@@ -1,52 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="author" content="Valder Grei" />
+    <meta charset="UTF-8">
+    <meta name="author" content="Valder Grei">
     <meta
       name="description"
       content="An extra page that will be used as a relitive reference link for the main html document."
-    />
+    >
     <title>Main page</title>
-    <link rel="icon" href="torro.png" type="icon/x-icon" />
-    <link rel="stylesheet" href="aboutbutstyle.css" type="text/css" />
+    <link rel="icon" href="torro.png" type="icon/x-icon">
+    <link rel="stylesheet" href="main.css" type="text/css">
   </head>
 
   <body>
-    <h1>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Las
-      cucarachas shall not pass!
+    <h1 style="text-align: center;">
+      Las cucarachas shall not pass!
     </h1>
 
-    <h2>First Reference</h2>
-    <figure>
-      <img src="./img/Inu.png" alt="Inu" height="557" width="445" title="What are you looking at?">
-    <figcaption>
-      What did you expect to see, chickens? :V
-    </figcaption>
+    <h2 style="color: whitesmoke;">First Reference</h2>
+    <p class="center">What did you expect to see, chickens? :V</p>
+    <figure class="container">
+      <img style="display: block; width: 55%; height: auto;" src="./img/Inu.png" alt="Inu" height="557" width="445" title="What are you looking at?">
     </figure>
-
-    <hr />
-
-    <ul>
-      <li>Download an <a href="5logo.png" download>Html5 favicon</a></li>
-    </ul>
-
-    <ul>
+   
+   <article class="center">
+    <h2>Review</h2>
+    <p>Nice that you, the reader, made it so far 👀. The website has drastically changed and now got quite more CSS in it than before. No complaints about the colors, it's the starless night theme, though, apparently, with some city-lights on the bottom. As it gets lighter, font gets dawn-like colors. At least I hope it looks like a dawn color 👀. New pages will be coming some day, long way to master CSS anyway, and study JavaScript, for now thanks for reading, pet Inu and be glad he still has his underwear on. Told ya, it's a sus reference.</p>
+   </article>
+    
+   <article>
+    <h2>Last tasks from the HTML Course</h2>
+    <ul class="center article__ul">
+      <li>Download an <a class="reference" style="color:#de3c4b;" href="5logo.png" download>Html5 favicon</a></li>
+   
       <li>
-        Contact me at <a href="mailto:dontspidermebitch@gmail.com">my email.</a>
+        Contact me at <a class="reference" style="color:#de3c4b; " href="mailto:dontspidermebitch@gmail.com">my email.</a>
       </li>
-      <li>Dial <a href="tel:+393291815395">my phone number</a></li>
+      <li>Dial <a class="reference" style="color:#de3c4b;" href="tel:+393291815395">my phone number</a></li>
 
       <li>
-        <a href="https://www.google.com/" target="blank">Google</a>
+        <a class="reference" style="color:#de3c4b;" href="https://www.google.com/" target="blank">Google</a>
       </li>
-    </ul>
-
-    <ul>
+    
       <li>
-        <a href="index.html">Main Page</a>
+        <a class="reference"  style="color:#de3c4b;" href="index.html">Main Page</a>
       </li>
     </ul>
+  </article>
   </body>
 </html>
