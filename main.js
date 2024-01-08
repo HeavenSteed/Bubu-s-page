@@ -1,14 +1,13 @@
-const img = document.getElementById('images');
+var images = ['img\\InuDressed.png', 'img\\Inu.png', 'img\\InuNaked.png'],
+                i = 0;
 
-let toggle = true;
-img.addEventListener ('click', function() {
+            // preload
+            for (var j=images.length; j--;) {
+                var img = new Image();
+                img.src = images[j];
+            }
 
-    toggle = !toggle;
-    if(toggle) {
-        img.src = 'img\\Inu.png';
-    }else{
-        img.src = 'img\\InuNaked.png';  
-    };
-
-
-})
+            // event handler
+            document.getElementById('dressed').addEventListener('click', function() {
+                this.src = images[i >= images.length - 1 ? i = 0 : ++i];
+            }, false);
