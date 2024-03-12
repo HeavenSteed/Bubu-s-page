@@ -103,6 +103,7 @@ html {
 body {
     background-color: var(--BGIMAGE);
     color: var(--FONT-COLOR);
+    min-height: 70vh;
     max-width: 800px;
     margin: 0 auto;
 }
