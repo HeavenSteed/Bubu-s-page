@@ -374,8 +374,8 @@ table, tr, th, td, caption {
 
     }
 
-    body {
-        height: 250px;
+    footer {
+        height: auto;
     };
 
             
