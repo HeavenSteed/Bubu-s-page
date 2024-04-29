@@ -74,7 +74,7 @@ function makeSound(button) {
         currentlyPlayingAudio.currentTime = 0;
       }
 
-      paragraph.innerHTML = "Just listen to it, it's like I'm having a dinner with sophisticated glasses and making Cin-Cin with a certain someone! We're the frogs of culture, didn't you know?";
+      paragraph.innerHTML = "Just listen to it, it's like I'm having dinner with sophisticated glasses and making Cin-Cin with a certain someone! We're the frogs of culture, didn't you know?";
       imaggio.src = "./Froggo/beeee.png";
 
       let sssip = new Audio("sounds/sipsound.mp3");
