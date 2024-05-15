@@ -6,7 +6,7 @@ const temperatureNumber = document.getElementById("temperature");
 const windNumber = document.getElementById("vento");
 const humidityNumber = document.getElementById("humidity");
 const descriptionSpan = document.getElementById("description");
-const images = ['img\\mail.gif', 'img\\grrreat.gif', 'img\\fired_up.gif', 'img\\blinkblinkblink.gif', 'img\\checking.gif', 'img\\Ohverygood.gif'],
+const images = ['img\\mail.gif', 'img\\grrreat.gif', 'img\\fired_up.gif', 'img\\blinkblinkblink.gif', 'img\\Checking.gif', 'img\\Ohverygood.gif'],
                 i = 0;
 
             // preload
