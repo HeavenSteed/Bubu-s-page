@@ -34,7 +34,7 @@ input, button, textarea {
 
 
 --BGCOLOR-FADE: #140152; 
---BGIMAGE: url("../img/WaterBG.jpg");
+--BGIMAGE: url("./WaterBG.jpg");
 --CALENDARIOIMAGE: url("../img/Watery.jpg");
 --BODY-BGCOLOR: linear-gradient(to bottom, #02010a, #04052e,   rgba(4, 5, 46, 0.8));
 --FONT-COLOR: whitesmoke;
